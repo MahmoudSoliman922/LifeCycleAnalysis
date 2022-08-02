@@ -1,0 +1,25 @@
+CREATE TABLE Orders (
+    id integer,
+    customer_id Integer,
+    cost Decimal,
+    date DateTime
+);
+
+
+INSERT INTO Orders VALUES (0, 100, 10, "2020-01-05 8:10:24");
+
+INSERT INTO Orders VALUES (1, 200, 10, "2020-01-05 8:10:48");
+
+INSERT INTO Orders VALUES (2, 400, 10, "2021-01-05 8:10:43");
+
+INSERT INTO Orders VALUES (3, 200, 10, "2021-01-05 8:10:43");
+
+INSERT INTO Orders VALUES (4, 300, 10, "2019-01-05 8:10:55");
+
+INSERT INTO Orders VALUES (5, 100, 10, "2022-01-05 8:10:24");
+
+INSERT INTO Orders VALUES (6, 400, 10, "2021-01-05 8:10:43");
+
+INSERT INTO Orders VALUES (7, 100, 10, "2021-01-05 8:10:33");
+
+INSERT INTO Orders VALUES (8, 100, 10, "2020-01-05 8:10:37");
